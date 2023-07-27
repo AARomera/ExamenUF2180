@@ -13,9 +13,12 @@ import java.sql.SQLException;
  */
 public class ConexionBD {
 
+	//CREATE USER 'Pepe' IDENTIFIED BY '1234';
+	//GRANT SELECT,UPDATE,DELETE, INSERT on empresa.* to Pepe;
+	
 	private static final String database = "empresa";
-	private static final String usuario = "root";
-	private static final String contrasena = "123456";
+	private static final String usuario = "Pepe";
+	private static final String contrasena = "1234";
 	private static final String url="jdbc:mysql://localhost/"+database;
 	
 	private Connection conexion=null;
